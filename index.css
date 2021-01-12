@@ -28,7 +28,7 @@ html, body {
 
 .landingpage{
   height: 100vh;
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial bold,sans-serif;
 }
 
 .landingpage{
@@ -42,7 +42,7 @@ html, body {
 }
 
 .landingpage h1{
-font-family: 'Arial';
+font-family: Arial Narrow,Arial bold,sans-serif; 
 font-size: 100px;
 line-height: 80px;
 text-align: center;
@@ -52,24 +52,22 @@ top: 5%;
 
 /* TEXT */
 @font-face {
-  font-family: 'OggI';
-  src: url('fonts/Ogg-Italic.otf') format('opentype');
+  font-family: 'Wremena';
+  src: url('fonts/WremenaRegular.otf') format('opentype');
 }
+
 @font-face {
-  font-family: 'OggR';
-  src: url('fonts/Ogg-Roman.otf') format('opentype');
+  font-family: 'Wremena-light';
+  src: url('fonts/WremenaLight.otf') format('opentype');
 }
+
 @font-face {
-  font-family: 'SuisseR';
-  src: url('fonts/SuisseWorks-Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: 'SuisseI';
-  src: url('fonts/SuisseWorks-RegularItalic.otf') format('opentype');
+  font-family: 'Wremena-bold';
+  src: url('fonts/WremenaBold.otf') format('opentype');
 }
 
 p {
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 16px;
   overflow-wrap: break-word;
     word-wrap: break-word;
@@ -82,28 +80,29 @@ p {
 
 i{
   text-decoration: none;
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial,sans-serif; 
   padding: 5%;
 }
 
 a {
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial,sans-serif; 
   font-weight: 400;
   color: blue;
-  padding: 5%;
+  padding: 2%;
 }
 
 h1 {
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial bold,sans-serif; 
   font-weight: 400;
-  font-size: 23px;
-  text-indent: 18px;
+  text-align: center;
+  font-size: 40px;
+  text-indent: 0px;
   padding: 5%;
 }
 
 h2 {
-  font-family: 'Arial';
-  font-size: 16px;
+  font-family: Arial Narrow,Arial,sans-serif; 
+  font-size: 17px;
   font-weight: 600;
   text-align: center;
   line-height: 1.6;
@@ -123,7 +122,7 @@ h2 {
 }
 
 sup {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial Narrow,Arial,sans-serif;  
   font-weight: 400;
   font-size: 11px;
   vertical-align: baseline;
@@ -132,15 +131,15 @@ sup {
 }
 
 .subheaders {
-  font-family: 'Arial', serif;
+  font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 23px;
   text-indent: 18px;
   color: red;
 }
 
 .image-footnotes {
-  font-family: 'Arial', serif;
-  font-size: 15px;
+  font-family: Wremena;
+  font-size: 17px;
   padding-top: 6px;
   padding-left: 18px;
   padding-right: 18px;
@@ -153,7 +152,7 @@ sup {
 }
 
 table.Table {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial Narrow,Arial,sans-serif; 
   border: 1px solid #000000;
   background-color: #FFFFFF;
   width: 100%;
@@ -183,7 +182,7 @@ table.Table tfoot td {
 
 /* INDENT */
 .indent {
-  font-family: 'Arial';
+  font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 16px;
   padding-top: 0px;
   padding-left: 18px;
@@ -226,7 +225,7 @@ table.Table tfoot td {
 }
 
 .abstract {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 /* IMAGES */
@@ -566,16 +565,22 @@ nav ul ul li {
   }
 
   .abstract {
-    padding-top: 3px;
+    padding-top: 0px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 17px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: 9 3 3;
   }
 
   h1 {
-    font-size: 20px;
-    text-indent: 13px;
+    font-size: 30px;
+    text-align: center;
   }
 
   #title-bar > h1 {
@@ -588,7 +593,7 @@ nav ul ul li {
   }
 
   .image-footnotes {
-    font-size: 12px;
+    font-size: 13px;
     padding-top: 8px;
     padding-left: 16px;
     padding-right: 16px;
