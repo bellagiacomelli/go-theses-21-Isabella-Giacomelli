@@ -98,5 +98,11 @@ function imageZoom(imgID, resultID) {
   };
 };
 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+
 // Initiate zoom effect:
 imageZoom("myimage", "myresult");
